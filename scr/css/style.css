@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@500;600&family=Nunito:wght@700;900;1000&family=Raleway:wght@700;800;900&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+body { 
+    background-color: #000;
+}
+
+.banner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/banner.png'), linear-gradient(black, #194052);
+    border-bottom: 1px solid #33A8DB;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 268px;
+    height: 268px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.20);
+    margin-bottom: 20px;
+}
+
+h2,
+h1 {
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.p-one {
+    width: 590px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Anuphan', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+button {
+    
+    color: #3BA1CD;
+    background: none;
+    border: 2px solid #3BA1CD;
+    padding: 19px 91px;
+    width: 326px;
+    font-weight: 900;
+    font-size: 16px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #33A8DB;
+}
+
+/* Course-Content*/
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+    height: 80vh;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.p-two {
+    width: 792px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.module {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 535px;
+    white-space: nowrap;
+    padding: 16px 127px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    color: white;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+}
+
+span {
+    color: #33A8DB;
+    margin-right: 4px;
+}
+
+/* transform-world */
+  
+#transform-world {
+    height: 50vh;
+    background: url(../images/woman-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% -200px;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.p-tree {
+    color: #FFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: lowercase;
+    width: 300px;
+    position: absolute;
+    left: 158px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+/* professional-challenges */
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 24px;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.p-four {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+    width: 792px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+    
+}
+
+.dio-logo{
+    margin-top: 24px;
+}
+
+.p-five {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #33A8DB;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
